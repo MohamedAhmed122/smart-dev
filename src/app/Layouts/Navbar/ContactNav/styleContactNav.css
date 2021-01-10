@@ -1,0 +1,42 @@
+.contactHeader{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    /* margin: 30px; */
+
+}
+.contact_btn{
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+.logo_big{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+}
+.close_btn{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff7979;
+    color: #ff7979 !important;
+    background-color: white;
+    outline-width: 0px;
+    width: 85px;
+    height: 40px;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.close_btn:hover{
+    border: 1px solid white;
+    color: white !important;
+    background-color: #ff7979;
+}
+.close_btn .close_icon{
+    margin-left: 5px;
+    height: 20px !important;
+    width: 20px !important;
+}

@@ -1,0 +1,25 @@
+.contactSide{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.contact_header{
+    margin-top: 5rem;
+    line-height: 50px;
+    font-size: 35px;
+    font-family: 'Vidaloka', serif;
+    margin-bottom: 4rem;
+
+}
+.contact_small_text{
+    margin-top: 2.5rem;
+    line-height: 20px;
+    font-size: 25px;
+    text-align: start;
+    font-weight: 100;
+    margin-left: -40px;
+    
+}
