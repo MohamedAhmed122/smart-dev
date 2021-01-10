@@ -31,31 +31,13 @@
     color:  #0A96A6;
     margin-bottom: 60px;
 }
-.weird_container{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 70%;
-    margin-left: 15%;
-}
-.weird{
-    background-color: #c7f3f7;
-    color:  #0A96A6;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin: 10px;
-    border-radius:20px;
-}
-.weird:hover{
-    background-color: #b7f9ff;
-   
-}
+
 .btn_group{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
 }
 .github{
     padding: 20px;
