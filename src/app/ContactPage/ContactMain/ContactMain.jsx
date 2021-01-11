@@ -4,6 +4,7 @@ import { Form, Formik } from 'formik'
 
 import FormText from '../../Components/FormText/FormText'
 import * as Yup from 'yup'
+import Recaptcha from 'react-recaptcha'
 
 import { Container } from '@material-ui/core'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
@@ -21,6 +22,21 @@ const validationSchema = Yup.object({
 
 
 export default function ContactMain() {
+
+    // create a variable to store the component instance
+let recaptchaInstance;
+ 
+// manually trigger reCAPTCHA execution
+const executeCaptcha = function () {
+  recaptchaInstance.execute();
+};
+ 
+// executed once the captcha has been verified
+// can be used to post forms, redirect, etc.
+const verifyCallback = function (response) {
+  console.log(response);
+  document.getElementById("someForm").submit();
+};
 
     return (
         <div style={{ flex: 0.7}}>
@@ -55,6 +71,12 @@ export default function ContactMain() {
                                     multiline
                                     rows={5}
                                     label="Write Message" />
+                                     <Recaptcha
+                                        ref={e => recaptchaInstance = e}
+                                        sitekey="xxxxxxxxxxxxxxxxxxxx"
+                                        size="invisible"
+                                        verifyCallback={verifyCallback}
+                                        />
                                     <button className='contact_send_btn' type='submit'> 
                                         Send Message <ArrowRightAltIcon />
                                     </button>
