@@ -1,0 +1,132 @@
+.main_story{
+    display: flex;
+    align-items: center;
+    margin: 12rem 0;
+}
+.main_story .quote{
+    font-size: 100px !important;
+    transform: scaleX(-1);
+    color: #e0fdff;   
+}
+.clients_text1{
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 33px;
+    width: 90%;
+    letter-spacing: 1px;
+
+}
+.clients_text1 span{color: #f7c52f;}
+.flexCol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.client_main{
+    height: 250px;
+    width: 170px;
+    border-radius: 50px;
+    object-fit: cover;
+    display: block;
+}
+.ceo{
+    margin: 0.5rem 0 ;
+    color: #0A96A6;
+}
+
+.company_name{
+    font-weight: 100;
+}
+
+
+
+
+.story_feature{
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 40px;
+    height: auto; 
+    background-color: #eefcfd;    
+    border-bottom-right-radius: 170px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin-top: 450px;
+    padding: 10px;
+}
+.client_story_container{
+    display: flex;
+    background-color: white;
+    padding: 20px 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 5rem;
+}
+.client_story_container .avatar{
+    margin-top: -1.2rem;
+    margin-left: -4rem;
+    width: 100px !important;
+    height: 100px !important;
+    border: 10px solid white;
+    
+} 
+.reverse{flex-direction: row-reverse;}
+.reverse .avatar{
+    margin-top: -1.2rem;
+    margin-right: -4rem;
+    width: 100px !important;
+    height: 100px !important;
+    border: 10px solid white;
+    
+} 
+.mr-4{margin-left: 3rem;}
+.clients_text2{
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 31px;
+    width: 90%;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.clients_title{
+    margin-top:3rem ;
+    margin-bottom: 4rem;
+}
+
+@media(max-width:850px){
+    .mr-4{margin-left:1rem;}
+    .clients_text2{
+        line-height: 35px;
+        font-size: 22px;
+        width: 100%;
+        letter-spacing: 0px;
+       
+    }
+    .clients_text1{
+        line-height: 30px;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+}
+@media(max-width:600px){
+    .main_story .quote{
+        display: none;
+    }
+    .main_story{
+        flex-direction: column;
+    }
+    .clients_text2{
+        font-size: 16px;
+        line-height: 20px; 
+    }
+    .clients_text1{
+        line-height: 20px;
+        font-size: 16px;
+        margin-bottom: 3rem;
+    }
+   
+}

@@ -49,3 +49,14 @@
     width: 50%;
     line-height: 30px;
 }
+@media(max-width:600px){
+    .emoji_container h1{
+      font-size: 20px;
+    
+    }
+    .emoji_container p{
+        font-size: 15px;
+        width: 90%;
+
+    }
+}
