@@ -32,14 +32,26 @@ export default function ProjectIntro() {
                         <p>Mobile App</p>
                         <FiberManualRecordIcon  className='icon2' />
                     </div>
+                    <a
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href='https://mo-motion1.web.app/'
+                    >
                     <div className='project_select_container'>
                         <p>Design</p>
                         <BrushIcon className='icon3' />
                     </div>
+                    </a>
+                    <a
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        href='https://mo-motion1.web.app/'
+                    >
                     <div className='project_select_container' >
                         <p>Animation</p>
                         <DashboardIcon className='icon4' />
                     </div>
+                    </a>
                 </div>
 
             </Container>

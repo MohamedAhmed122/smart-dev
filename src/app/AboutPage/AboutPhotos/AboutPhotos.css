@@ -1,0 +1,51 @@
+.about_photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about_photo{
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about_photo img{
+    height: 250px;
+    width: 170px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.about_photo h3{
+    margin-top: 1rem;
+    color: #096873;
+    font-weight: 400;
+}
+.about_photo p{
+    font-weight: 100;
+}
+.emoji_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+.emoji_container .emoji{
+
+    font-size: 100px;
+}
+.emoji_container h1{
+    margin: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+.emoji_container p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    width: 50%;
+    line-height: 30px;
+}

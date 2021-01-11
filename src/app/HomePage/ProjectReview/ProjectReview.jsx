@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './ProjectReview.css'
 
@@ -15,6 +16,9 @@ const trans = (x, y, s) => `perspective(10000px) rotateX(${x}deg) rotateY(${y}de
 
 export default function ProjectPreview() {
     
+    useEffect(()=>{
+        AOS.init({duration:1000})
+    })
     const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 10, tension: 100, friction: 70 } }))
     const [props2, set2] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 10, tension: 100, friction: 70 } }))
     const [props3, set3] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 10, tension: 100, friction: 70 } }))
@@ -24,8 +28,8 @@ export default function ProjectPreview() {
     return (
         <Container style={{marginBottom: '10rem'}}>
             <div className='projects_text'>
-                <p className='project_text_main'> Our Projects</p>
-                <h3 > Our work is the bridge to various insightful digital experiences.</h3>
+                <p data-aos='fade-right' className='project_text_main'> Our Projects</p>
+                <h3 data-aos='fade-left'> Our work is the bridge to various insightful digital experiences.</h3>
             </div>
            <a
                 target="_blank" 
@@ -107,7 +111,7 @@ export default function ProjectPreview() {
                 justifyContent: 'center',
                 marginTop:'3rem'
             }}>
-                <button onClick={()=> history.push('/project')} className='project_btn'>
+                <button data-aos='fade-left' onClick={()=> history.push('/project')} className='project_btn'>
                     See More Projects <ArrowRightAltIcon />
                 </button>
             </div>   
