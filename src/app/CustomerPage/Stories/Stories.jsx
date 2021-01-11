@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
 import { Avatar, Container } from '@material-ui/core';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './StylesStories.css'
 
 export default function Stories() {
+    useEffect(()=>{
+        AOS.init({duration: 1200})
+    },[])
     return (
         <div>
             <Container>
-                <div className='main_story'>
+                <div  className='main_story'>
                     <FormatQuoteIcon className='quote' />
                     <div className='flexCol'>
                         <p className='clients_text1'>
@@ -31,7 +35,7 @@ export default function Stories() {
                 {
                     stories.map(story=>(
 
-                        <div key={story.id} className={story.reverse ?'client_story_container reverse': 'client_story_container'}>
+                        <div data-aos='fade-up' key={story.id} className={story.reverse ?'client_story_container reverse': 'client_story_container'}>
                             <Avatar className='avatar' src={story.image}/>
                             <div className='mr-4' >
                                 <p className='clients_text2'>
@@ -73,7 +77,7 @@ const stories=[
         company:'Adam Schools',
         text:"Smart Dev exceeded all our expectations in developing our platform. Fall and the team understood our requirements and the aesthetic we were going for. They were able to quickly deliver, keeping us involved at every step, until we had something we are very proud of.",
         reverse:false,
-        image:'/assets/cl7.png'
+        image:'/assets/cl8.png'
     },
     {
         id: 4,

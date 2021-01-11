@@ -7,6 +7,7 @@ import ProjectPage from './app/ProjectPage/ProjectPage';
 import CustomerPage from './app/CustomerPage/CustomerPage';
 
 import './App.css';
+import Footer from './app/Layouts/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/about' component={AboutPage} />
           <Route exact path='/customers' component={CustomerPage} />
        </Switch>
+       <Footer />
     </div>
   );
 }
