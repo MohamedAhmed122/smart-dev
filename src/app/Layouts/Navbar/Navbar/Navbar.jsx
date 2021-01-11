@@ -27,6 +27,7 @@ export default function Navbar() {
                     <div className='nav_left'>
                       <Link to='/about' className='link'>About</Link>
                       <Link  to='/project' className='link'>Project</Link>
+                      <Link  to='/customers' className='link'>Customer Stories</Link>
                     </div>
 
                 </div>

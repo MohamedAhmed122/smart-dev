@@ -30,6 +30,10 @@ export default function NavbarResponsive() {
             history.push('/contact')
             setMenu(false)
         }
+        if (route === 'customers'){
+            history.push('/customers')
+            setMenu(false)
+        }
     }
     return (
         <div className='menu'>
@@ -59,6 +63,7 @@ export default function NavbarResponsive() {
                     <div className='menu_link' onClick={()=>handleNavigation('project')}>Projects</div>
                     <div className='menu_link' onClick={()=>handleNavigation('about')}>About</div>
                     <div className='menu_link' onClick={()=>handleNavigation('contact')} >Contact</div>
+                    <div className='menu_link' onClick={()=>handleNavigation('customers')} >Customer Stories</div>
                 </div>
             }   
         </div>

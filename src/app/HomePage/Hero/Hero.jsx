@@ -15,7 +15,7 @@ export default function Hero() {
 
     const handleScroll =(values)=> window.scrollTo({top:values,behavior: 'smooth'})
     useEffect(()=>{
-        AOS.init({duration:2200})
+        AOS.init({duration:1500})
     },[])
 
     return (
