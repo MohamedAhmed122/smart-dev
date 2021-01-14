@@ -28,7 +28,7 @@ export default function ProjectIntro() {
                         <p>Websites</p>
                         <StopIcon  className='icon1' />
                     </div>
-                    <div className='project_select_container' onClick={()=>handleScroll(5750)}>
+                    <div className='project_select_container' onClick={()=>handleScroll(6400)}>
                         <p>Mobile App</p>
                         <FiberManualRecordIcon  className='icon2' />
                     </div>
