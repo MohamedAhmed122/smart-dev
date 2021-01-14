@@ -46,6 +46,13 @@ button{
     width: 200px;
     opacity: 0.5;
 }
+.bg2{
+    width: 86%;
+    margin-left: 7%;
+    border-radius: 100px;
+
+   
+}
 .bg button:hover{opacity:1 ;}
 .bg h2{
     margin-right: 35rem;

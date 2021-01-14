@@ -14,7 +14,7 @@ export default function ContactHeader() {
         <Container>
             <div className='contactHeader'>
                 <div onClick={() =>history.push('/')}  >
-                    <img className='logo_big' src='/assets/logo.png' alt='logo' />
+                    <img className='logo_big' src='/assets/Logo-smart.png' alt='logo' />
                 </div>
                 <div className='contact_btn'>
                 <button onClick={()=>history.goBack()} className='close_btn'>

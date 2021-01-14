@@ -41,12 +41,12 @@
 }
 .logo_container{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 60px;
     margin-left: 50px;
     margin-bottom: 35px;
 }

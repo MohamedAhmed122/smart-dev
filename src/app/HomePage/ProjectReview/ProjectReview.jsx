@@ -34,76 +34,71 @@ export default function ProjectPreview() {
            <a
                 target="_blank" 
                 rel="noopener noreferrer" 
-                href='https://hangout-club.web.app'
+                href='http://hangout-club.firebaseapp.com/'
             >
             <animated.div
                 onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
                 onMouseLeave={() => set({ xys: [0, 0, 1] })}
                 style={{
-                    backgroundImage: `url('/assets/hang.png')`,
+                    backgroundImage: `url('/assets/hang1.png')`,
                     transform: props.xys.interpolate(trans)
                 }}
                 className='bg hangout'
                 >
-                    <h2>Hangout Club</h2>
-                    <button>Live now</button>
+                   
             </animated.div>
             </a>
 
+           
             <a
                 target="_blank" 
                 rel="noopener noreferrer" 
-                href='https://pro-e-commerce.herokuapp.com'
-            >
-                <animated.div
-                    onMouseMove={({ clientX: x, clientY: y }) => set4({ xys: calc(x, y) })}
-                    onMouseLeave={() => set4({ xys: [0, 0, 1] })}
-                    style={{
-                        backgroundImage: `url('/assets/ecommerce.png')`,
-                        transform: props4.xys.interpolate(trans)
-                    }}
-                    className='bg'
-                    >
-                        <h2>Electronics e-commerce store</h2>
-                        <button>Live now</button>
-                </animated.div>
-
-            </a>
-            <a
-                target="_blank" 
-                rel="noopener noreferrer" 
-                href='https://github.com/MohamedAhmed122/React-native-doneWithIT'
+                href='https://okeyschool.herokuapp.com/'
             >
             <animated.div
                 onMouseMove={({ clientX: x, clientY: y }) => set2({ xys: calc(x, y) })}
                 onMouseLeave={() => set2({ xys: [0, 0, 1] })}
                 style={{
-                    backgroundImage: `url('/assets/done.png')`,
+                    backgroundImage: `url('/assets/OkeySchool2.png')`,
                     transform: props2.xys.interpolate(trans)
                 }}
-                className='bg shoty'
+                className='bg bg2'
             >
-                <h2>Done With It</h2>
-                <button>Visit Github</button>
             </animated.div>
             </a>
             <a
                 target="_blank" 
                 rel="noopener noreferrer" 
-                href='https://shoty-db.web.app'
+                href='https://adamschool.herokuapp.com/'
             >
             <animated.div
                 onMouseMove={({ clientX: x, clientY: y }) => set3({ xys: calc(x, y) })}
                 onMouseLeave={() => set3({ xys: [0, 0, 1] })}
                 style={{
-                    backgroundImage: `url('/assets/shoty.png')`,
+                    backgroundImage: `url('/assets/AdamSchool4.png')`,
                     transform: props3.xys.interpolate(trans)
                 }}
-                className='bg'
+                className='bg bg2'
             >
-                <h2>Clothing Store - SHOTY</h2>
-                <button>Live now</button>
+              
             </animated.div>
+            </a>
+            <a
+                target="_blank" 
+                rel="noopener noreferrer" 
+                href='https://www.senfreelance.com/'
+            >
+                <animated.div
+                    onMouseMove={({ clientX: x, clientY: y }) => set4({ xys: calc(x, y) })}
+                    onMouseLeave={() => set4({ xys: [0, 0, 1] })}
+                    style={{
+                        backgroundImage: `url('/assets/freelancer5.png')`,
+                        transform: props4.xys.interpolate(trans)
+                    }}
+                    className='bg'
+                    >
+                </animated.div>
+
             </a>
             <div style={{
                 display:'flex',

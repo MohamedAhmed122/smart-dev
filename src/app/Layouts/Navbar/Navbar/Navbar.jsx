@@ -21,7 +21,7 @@ export default function Navbar() {
               <div className='navbar'>
                 <div className='navbar_logo_container'>
                    <div onClick={() => history.push('/')}>
-                    <img className='logo' src='/assets/logo.png' alt='logo' />
+                    <img className='logo' src='/assets/Logo-smart.png' alt='logo' />
                    </div>
                    
                     <div className='nav_left'>

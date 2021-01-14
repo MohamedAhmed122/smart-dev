@@ -39,7 +39,7 @@ export default function NavbarResponsive() {
         <div className='menu'>
             <div className='menu_container'>
                 <div onClick={() => history.push('/')}>
-                    <img className='logo' src='/assets/logo.png' alt='logo' />
+                    <img className='logo' src='/assets/Logo-smart.png' alt='logo' />
                 </div>
                 <div className='contact_btn close_menu'>
                 {

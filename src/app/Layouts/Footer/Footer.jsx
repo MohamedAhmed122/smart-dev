@@ -47,7 +47,7 @@ export default function Footer() {
 
                     <div className='footer_middle'>
                         <div className='logo_container'>
-                            <img src='/assets/logo.png' alt='Logo' className='logo' />
+                            <img src='/assets/Logo-smart.png' alt='Logo' className='logo' />
                         </div>
                         <p className='copyright'> &copy; Copyright by Mohamed Youssef</p>
                     </div>
