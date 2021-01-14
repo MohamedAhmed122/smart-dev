@@ -104,7 +104,8 @@ export default function ProjectPreview() {
                 display:'flex',
                 alignItems:'center',
                 justifyContent: 'center',
-                marginTop:'3rem'
+                marginTop:'3rem',
+                marginBottom: '12rem',
             }}>
                 <button data-aos='fade-left' onClick={()=> history.push('/project')} className='project_btn'>
                     See More Projects <ArrowRightAltIcon />

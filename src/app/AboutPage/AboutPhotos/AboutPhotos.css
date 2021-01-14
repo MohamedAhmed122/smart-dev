@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 7rem;
 }
 .about_photo{
     margin: 5rem;

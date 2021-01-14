@@ -26,10 +26,10 @@ export default function Hero() {
                     <div className='hero_block'>
                         <div data-aos='fade-right' className='hero_left'>
                             <p className='hero_main_text'> 
-                                My Name is Mohamed <span>&</span> I build things on the internet 
+                                We are Information Technology <span>&</span> Services Provider
                             </p>
                             <p className='hero_sub_text'>
-                                We develop and design website and mobile & desktop application
+                                We develop and design website, mobile App & desktop application
                             </p>
                             <div className='hero_btn'>
                                 <button className='projects_btn' onClick={()=>handleScroll(900)}>Projects</button>

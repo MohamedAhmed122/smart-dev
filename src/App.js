@@ -7,7 +7,6 @@ import ProjectPage from './app/ProjectPage/ProjectPage';
 import CustomerPage from './app/CustomerPage/CustomerPage';
 
 import './App.css';
-import Footer from './app/Layouts/Footer/Footer';
 import FooterMain from './app/Layouts/FooterMain/FooterMain';
 
 function App() {
